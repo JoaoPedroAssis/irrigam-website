@@ -6,7 +6,7 @@ import TeamMemberRight from "./TeamMemberRight";
 
 const InfoSection = () => {
   return (
-    <div className="flex flex-col gap-8 pb-10 pt-20" id="about">
+    <div className="flex flex-col gap-8 pb-10 pt-20" id="nosso-time">
       <div className="flex w-full flex-col items-center justify-center gap-5 text-center pb-10">
         <Text className="font-poppins text-lg font-semibold text-primary-500 max-xl:mt-16">
           CONHEÇA NOSSO TIME

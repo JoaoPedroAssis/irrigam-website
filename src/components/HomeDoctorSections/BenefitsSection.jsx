@@ -35,7 +35,7 @@ const Cells = [
 
 const BenefitsSection = () => {
   return (
-    <div className="flex max-w-screen-big flex-col items-center gap-10 md:py-32" id="benefits">
+    <div className="flex max-w-screen-big flex-col items-center gap-10 md:py-32" id="diferenciais">
       <div className="flex w-full flex-col items-center justify-center gap-5 text-center">
         <Text className="font-poppins text-lg font-semibold text-primary-500 max-xl:mt-16">
           DIFERENCIAIS

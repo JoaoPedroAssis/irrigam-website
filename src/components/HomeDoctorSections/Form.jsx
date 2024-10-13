@@ -47,7 +47,7 @@ const Formulario = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-white py-10 px-4">
+    <div className="flex justify-center items-center min-h-screen bg-white py-10 px-4" id="form">
       <div className="w-full max-w-lg border-2 border-primary rounded-lg shadow-lg p-8">
         <h1 className="text-2xl font-bold text-primary mb-4 text-center">Formulário de Contato</h1>
         <p className="text-gray-700 text-center mb-8">Preencha os dados abaixo para nos enviar sua mensagem.</p>

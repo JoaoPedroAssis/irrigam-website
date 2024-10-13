@@ -9,19 +9,24 @@ const Navbar = () => {
   const HeaderLinksDesktop = () => {
     return (
       <div className="flex h-8 w-fit flex-none items-center justify-center gap-6 border-r px-10">
-        <a href="#about">
+        <a href="#diferenciais">
+          <Text className="font-poppins text-sm font-medium text-coolGray-600 opacity-80 duration-500">
+            Diferenciais
+          </Text>
+        </a>
+        <a href="#nosso-time">
           <Text className="font-poppins text-sm font-medium text-coolGray-600 opacity-80 duration-500">
             Quem somos
           </Text>
         </a>
-        <a href="/">
+        <a href="#faq">
           <Text className="font-poppins text-sm font-medium text-coolGray-600 opacity-80 duration-500">
-            Sou paciente
+            FAQ
           </Text>
         </a>
         <Text
           className="cursor-pointer text-sm font-medium text-coolGray-600 duration-500 hover:text-primary-600"
-          onClick={() => (window.location.href = "https://wa.me/61996652148")}
+          onClick={() => (window.location.href = "https://wa.me/61991897450?text=Olá!%20Vi%20o%20site%20do%20Coletivo%20Irrigam%20e%20gostaria%20de%20saber%20mais.")}
         >
           Contato
         </Text>
@@ -32,21 +37,26 @@ const Navbar = () => {
   const HeaderLinksMobile = () => {
     return (
       <div className="mb-4 flex w-full flex-col">
-        <a href="#about" className="mt-8 flex w-full justify-between">
+        <a href="#diferenciais" className="mt-8 flex w-full justify-between">
+          <Text className="font-poppins text-sm font-medium text-coolGray-600 opacity-70 duration-500">
+            Diferenciais
+          </Text>
+        </a>
+        <a href="#nosso-time" className="mt-8 flex w-full justify-between">
           <Text className="font-poppins text-sm font-medium text-coolGray-600 opacity-70 duration-500">
             Quem somos
           </Text>
         </a>
-        <a href="/" className="mt-8 flex w-full justify-between">
+        <a href="#faq" className="mt-8 flex w-full justify-between">
           <Text className="font-poppins text-sm font-medium text-coolGray-600 opacity-70 duration-500">
-            Sou paciente
+            FAQ
           </Text>
         </a>
         <div
           className="mt-8 flex w-full justify-between"
           onClick={() => {
             setOpen(false);
-            window.location.href = "https://wa.me//61996652148";
+            window.location.href = "https://wa.me/61991897450?text=Olá!%20Vi%20o%20site%20do%20Coletivo%20Irrigam%20e%20gostaria%20de%20saber%20mais.";
           }}
         >
           <Text className="text-sm font-medium text-coolGray-600 duration-500">Contato</Text>
