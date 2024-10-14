@@ -1,5 +1,4 @@
-import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
-import { Button, Text } from "@switchdreams/ui";
+import { Text } from "@switchdreams/ui";
 
 import { imagePath } from "../../utils";
 

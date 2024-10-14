@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Text } from '@switchdreams/ui';
+import { toast } from 'react-toastify';
 
 const Formulario = () => {
   const [formData, setFormData] = useState({
@@ -20,8 +21,7 @@ const Formulario = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const discordWebhookUrl = 'https://discord.com/api/webhooks/1292677631904317511/wwcTokzDx2oNfgaPBHVMk8dc2fM50sk0mOf5sUtnOJqi-uUFFbcKB8QlJckNiU8e5OYi';
-
+    const discordWebhookUrl = process.env.DISCORD_WEBHOOK
     const embed = {
       embeds: [
         {
@@ -38,12 +38,22 @@ const Formulario = () => {
       ]
     };
 
-      await fetch(discordWebhookUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(embed)
+    fetch(discordWebhookUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(embed),
+    })
+      .then((response) => {
+        if (response.ok) {
+          toast.success('Formulário enviado com sucesso! 🎉');
+        } else {
+          toast.error('Ocorreu um erro ao enviar o formulário. Por favor, tente novamente ou entre em contato pelo WhatsApp.');
+        }
+      })
+      .catch(() => {
+        toast.error('Ocorreu um erro ao enviar o formulário. Por favor, tente novamente ou entre em contato pelo WhatsApp.');
       });
   };
 

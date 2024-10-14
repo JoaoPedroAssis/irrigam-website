@@ -27,12 +27,6 @@ const HeroSection = () => {
           </a>
         </div>
       </div>
-      {/* <img
-        src={imagePath("logo_azul.svg")}
-        width="600px"
-        className="z-5 bottom-7 right-7 xl:absolute"
-        alt="Mapa do Brasil formado por raízes em azul"
-      /> */}
       <div>
         <Lottie
             animationData={lottie}
