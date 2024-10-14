@@ -12,7 +12,7 @@ const FaqSection = () => {
           Tire suas dúvidas
         </Text>
         <Text className="text-md font-regular font-poppins text-coolGray-600">
-        Bem-vindo à nossa seção de Perguntas Frequentes! Aqui, reunimos as dúvidas mais comuns sobre os nossos serviços e o nosso trabalho no Irrigam. Sabemos que iniciar o processo de terapia em outro país pode trazer questionamentos, e queremos ajudar você a se sentir mais seguro e informado nessa jornada.
+        Boas vindas à nossa seção de Perguntas Frequentes! Aqui, reunimos as dúvidas mais comuns sobre os nossos serviços e o nosso trabalho no Irrigam. Sabemos que iniciar o processo de terapia em outro país pode trazer questionamentos, e queremos ajudar você a se sentir mais seguro e informado nessa jornada.
         </Text>
       </div>
       <NewFaqSection />
