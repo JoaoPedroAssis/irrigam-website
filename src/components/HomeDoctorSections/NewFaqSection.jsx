@@ -36,7 +36,7 @@ const FAQAccordionItem = ({ question, answer }) => {
               >
                 <path
                   d="M4.16732 12.5L10.0007 6.66667L15.834 12.5"
-                  stroke="#4F46E5"
+                  stroke="#778F7B"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"

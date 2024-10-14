@@ -66,8 +66,8 @@ const Formulario = () => {
         <Text className="font-quickSand text-5xl font-semibold text-secondary-900 max-md:text-4xl">
           Fale Conosco!
         </Text>
-        <Text className="text-md font-regular font-poppins text-white pb-6 mx-24">
-        Se você deseja saber mais sobre nossos serviços, agendar uma sessão ou tem alguma dúvida, preencha o formulário abaixo. Nossa equipe está pronta para acolher suas necessidades e responder o mais rápido possível!
+        <Text className="text-md font-regular font-poppins text-white pb-6 lg:mx-24">
+          Se você deseja saber mais sobre nossos serviços, agendar uma sessão ou tem alguma dúvida, preencha o formulário abaixo. Nossa equipe está pronta para acolher suas necessidades e responder o mais rápido possível!
         </Text>
         <div className="w-full max-w-lg border-2 border-primary rounded-lg p-8">
           <form className="space-y-6" onSubmit={handleSubmit}>

@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="flex gap-6 max-lg:w-full max-lg:flex-col max-lg:items-center max-lg:justify-center">
           <div className="flex gap-2 font-semibold text-white">
             <PhoneIcon className="size-6" />
-            <a href="https://wa.me/61991897450">
+            <a href="https://wa.me/61991897450?text=Ol%C3%A1!%20Vi%20o%20site%20do%20Coletivo%20Irrigam%20e%20gostaria%20de%20saber%20mais.">
               <Text className="font-poppins">+55 (61) 99189-7450</Text>
             </a>
           </div>

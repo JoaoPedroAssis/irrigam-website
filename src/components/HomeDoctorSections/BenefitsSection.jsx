@@ -11,7 +11,7 @@ const Cells = [
     icon: <GlobeAmericasIcon alt="ícone de uma televisão" />,
     name: "Apoio para Adaptação Cultural",
     description:
-      "Sessões de psicoterapia individual para pessoas que enfrentam diferentes emocionais de viver em outro país.",
+      "Sessões de psicoterapia individual para pessoas que enfrentam dificuldades emocionais de viver em outro país.",
   },
   {
     icon: <HeartIcon alt="ícone de calendário" />,

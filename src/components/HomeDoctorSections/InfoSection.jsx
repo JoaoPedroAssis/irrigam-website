@@ -39,8 +39,8 @@ const InfoSection = () => {
         abordagem="CRP-01/28363"
         nome="Renata Cardoso"
         descricao={[
-          "Somos um coletivo de profissionais que, por meio de amigos e familiares que também moram no exterior, identificamos a demanda relacionada aos desafios emocionais que surgem ao viver fora do país.",
-          "Nossa missão é proporcionar um atendimento que considere as particularidades culturais e os aspectos emocionais únicos desta experiência, compreendendo a singularidade de cada processo."
+          "Como psicóloga, atuo na abordagem Histórico-Cultural, considerando a psicoterapia uma oportunidade de construir novas perspectivas de vida por meio de novas formas de agir e pensar.",
+          "Com experiência em ansiedade, autoestima, relacionamentos e na população LGBT+, meu foco é ajudar no desenvolvimento da autonomia em um espaço seguro e acolhedor. Reconhecendo a vivência dos imigrantes brasileiros, ofereço suporte que valoriza suas experiências e promove o bem-estar."
         ]}
         imagem={imagePath("renata.webp")}
       />
@@ -48,8 +48,8 @@ const InfoSection = () => {
         abordagem="CRP-01/28510"
         nome="Gustavo Dantas"
         descricao={[
-          "Somos um coletivo de profissionais que, por meio de amigos e familiares que também moram no exterior, identificamos a demanda relacionada aos desafios emocionais que surgem ao viver fora do país.",
-          "Nossa missão é proporcionar um atendimento que considere as particularidades culturais e os aspectos emocionais únicos desta experiência, compreendendo a singularidade de cada processo."
+          "Pauto minha atuação pela Psicologia Histórico-Cultural. Na terapia, isso se traduz em uma escuta atenta à história e aos contextos que atravessam a experiência do paciente, ajudando a ampliar sua compreensão de si.",
+          "Esse processo é valioso no contexto imigratório, onde questões de identidade e pertencimento emergem. Com experiência em demandas como ansiedade, luto e envelhecimento, ofereço um espaço acolhedor que favorece novas formas de agir e se posicionar."
         ]}
         imagem={imagePath("gustavo.webp")}
       />
