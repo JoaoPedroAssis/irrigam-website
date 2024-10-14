@@ -24,12 +24,13 @@ const Navbar = () => {
             FAQ
           </Text>
         </a>
+        <a href="#form">
         <Text
           className="cursor-pointer text-sm font-medium text-coolGray-600 duration-500 hover:text-primary-600"
-          onClick={() => (window.location.href = "https://wa.me/61991897450?text=Olá!%20Vi%20o%20site%20do%20Coletivo%20Irrigam%20e%20gostaria%20de%20saber%20mais.")}
         >
           Contato
         </Text>
+        </a>
       </div>
     );
   };
@@ -52,15 +53,13 @@ const Navbar = () => {
             FAQ
           </Text>
         </a>
+        <a href="#form">
         <div
           className="mt-8 flex w-full justify-between"
-          onClick={() => {
-            setOpen(false);
-            window.location.href = "https://wa.me/61991897450?text=Olá!%20Vi%20o%20site%20do%20Coletivo%20Irrigam%20e%20gostaria%20de%20saber%20mais.";
-          }}
         >
           <Text className="text-sm font-medium text-coolGray-600 duration-500">Contato</Text>
         </div>
+        </a>
       </div>
     );
   };
