@@ -48,6 +48,10 @@ const Formulario = () => {
       .then((response) => {
         if (response.ok) {
           toast.success('Formulário enviado com sucesso! 🎉');
+
+          if (window && window.gtag) {
+            window.gtag('event', 'conversion');
+          }
         } else {
           toast.error('Ocorreu um erro ao enviar o formulário. Por favor, tente novamente ou entre em contato pelo WhatsApp.');
         }
