@@ -30,7 +30,7 @@ const InfoSection = () => {
         abordagem="CRP-01/28287"
         nome="Rodrigo Mendes"
         descricao={[
-          "Oriento-me pela Psicologia Histórico-Cultural, enxergando o desenvolvimento humano como resultado da interação entre o biológico e o ambiente sócio-histórico. Procuro analisar essas questões por meio de intervenções reflexivas, visando promover a autonomia.",
+          "Oriento-me pela Psicologia Histórico-Cultural, enxergando o desenvolvimento humano como resultado da interação entre o biológico e o ambiente sócio-histórico. Para brasileiros no exterior, esse olhar pode ajudar a compreender as diferentes nuances da imigração.",
           "Na minha experiência clínica diante de demandas de relacionamento, sexualidade e pessoas LGBT+, procuro analisar essas questões por meio de intervenções reflexivas, visando promover a autonomia."
         ]}
         imagem={imagePath("rodrigo.webp")}
